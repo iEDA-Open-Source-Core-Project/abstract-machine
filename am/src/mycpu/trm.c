@@ -44,8 +44,8 @@ void halt(int code)
 void _trm_init()
 {
 #ifdef SOC_ENV
-  // virt_uart_init(115200, 25000000);
-  virt_uart_init(9600, 20000000);
+  virt_uart_init(115200, 25000000);
+  // virt_uart_init(9600, 20000000);
   // virt_uart_init(14400, 20000000);
   // virt_uart_init(115200, 8000000);
   // virt_uart_init(9600, 8000000);
